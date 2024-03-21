@@ -1,0 +1,6 @@
+FROM python
+WORKDIR /app
+COPY . /app/
+CMD [ "python3", "sugarcaneyqr_vote_bot.py" ]
+
+# ```docker build -t sugarcaneyqr_vote_bot .```
